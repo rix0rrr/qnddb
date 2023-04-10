@@ -8,6 +8,7 @@ node_modules/
 /.env
 !/requirements.txt
 !/requirements-dev.txt
+!/setup.py
 __pycache__/
 *.py[cod]
 *$py.class
@@ -83,3 +84,4 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
+.DS_Store

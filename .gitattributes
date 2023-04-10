@@ -9,3 +9,4 @@
 /.projen/tasks.json linguist-generated
 /requirements-dev.txt linguist-generated
 /requirements.txt linguist-generated
+/setup.py linguist-generated

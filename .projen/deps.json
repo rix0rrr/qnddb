@@ -1,9 +1,29 @@
 {
   "dependencies": [
     {
+      "name": "hypothesis",
+      "version": "^6.71.0",
+      "type": "devenv"
+    },
+    {
       "name": "projen",
       "version": "0.71.7",
       "type": "devenv"
+    },
+    {
+      "name": "twine",
+      "version": "3.3.0",
+      "type": "devenv"
+    },
+    {
+      "name": "wheel",
+      "version": "0.36.2",
+      "type": "devenv"
+    },
+    {
+      "name": "boto3",
+      "version": "^1.26.109",
+      "type": "runtime"
     },
     {
       "name": "pytest",
