@@ -1,5 +1,6 @@
 from projen import ProjectType
 from projen.python import PythonProject
+from projen.release import Release
 
 project = PythonProject(
     author_email="rix0rrr@gmail.com",
@@ -16,5 +17,8 @@ project = PythonProject(
     ],
 )
 project.gitignore.add_patterns('.DS_Store')
+
+rls = Release(project, artifacts_directory='dist', branch='main', task=project.build_task, version_file='version.json')
+rls.publisher.publish_to_py_pi()
 
 project.synth()

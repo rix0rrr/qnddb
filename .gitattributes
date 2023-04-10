@@ -2,6 +2,7 @@
 
 /.gitattributes linguist-generated
 /.github/workflows/pull-request-lint.yml linguist-generated
+/.github/workflows/release.yml linguist-generated
 /.gitignore linguist-generated
 /.projen/** linguist-generated
 /.projen/deps.json linguist-generated

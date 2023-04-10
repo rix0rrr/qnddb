@@ -85,3 +85,6 @@ dmypy.json
 .pytype/
 cython_debug/
 .DS_Store
+/dist/changelog.md
+/dist/version.txt
+!/.github/workflows/release.yml
